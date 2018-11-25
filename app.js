@@ -1,7 +1,7 @@
 let express = require('express');
 let app = express();
 let MongoClient = require('mongodb').MongoClient;
-let mongoUrl = 'mongodb+srv://versusvirus:18Ftv_123@cluster0-philk.mongodb.net/test?retryWrites=true';
+let mongoUrl = 'mongodb+srv://versusvirus:@PASSWORD@cluster0-philk.mongodb.net/test?retryWrites=true';
 let globalCollection;
 
 app.use(express.static('public'));
